@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="container-tarjeta">
+          <p id="nombreJugador"></p>
+
+          <img src="/images/logo2.png" />
+
+          <p>Selecciona la opción que deseas jugar:</p>
+          <form>
+            <span>
+              <input type="radio" id="personaje" name="opcion" />Personajes
+            </span>
+            <br />
+            <span>
+              <input type="radio" id="matematicas" name="opcion" />Matemáticas
+            </span>
+            <br />
+            <span>
+              <input type="radio" id="curiosidades" name="opcion" />Curiosidades
+            </span>
+          </form>
+          <br />
+          <br />
+          <button onclick="elementoSeleccionado()" class="btn verde">
+            Jugar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../js/menu.js"></script>
+  </body>
+</html>
